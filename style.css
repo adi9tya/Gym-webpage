@@ -1,0 +1,114 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('./img/pexels-anush-gorak-1229356.jpg');
+    background-size: cover;
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
+.logo img{
+    width: 130px; 
+    filter: invert(100%);
+}
+.logo div{
+    font-size: 20px;
+    text-align: center;
+}
+.navbar {
+    display: block;
+    width: 45%;
+    margin: 29px auto;
+}
+.navbar li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 30px;
+   
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px;
+    transition: font-size 0.3s;
+}
+.tags{
+    position: absolute;
+    right: 50px;
+    top: 42px;
+    display: inline-block;
+    font-size: 22px;
+    word-spacing: 10px;
+    
+}
+.tags a{
+    color: white;
+    margin: 4px;
+    text-decoration: none;
+    
+}
+.nav a:hover{
+    font-size: 35px; 
+}
+.container {
+    position: absolute;
+    top: 80px;
+    border: 2px solid white;
+    margin: 90px 50px;
+    padding: 30px;
+    width: 33%;
+    border-radius: 28px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow:0px 3px 5px white;
+}
+.container input {
+    
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 2px;
+    border: none;
+    margin: 11px auto;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+.container input:focus{
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container h1{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+.btn{
+    display: block;
+    width: 200px;
+    margin: 13px auto;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
